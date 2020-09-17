@@ -9,51 +9,55 @@ public class User {
     public  static String picture;
     public  static String background;
     public  static String friend;
+    public  static String uiconPath;
 
     public User()
     {
 
     }
-    public int getId()
+
+    public static int getId()
     {
         return id;
     }
-    public String getPassword()
+    public static String getPassword()
     {
         return password;
     }
-    public String getAccount()
+    public static String getAccount()
     {
         return account;
     }
-    public String getUsername()
+    public static String getUsername()
     {
         return username;
     }
-    public String getSex()
+    public static String getSex()
     {
         return sex;
     }
-    public String getAge()
+    public static String getAge()
     {
         return age;
     }
-    public String getMotto()
+    public static String getMotto()
     {
         return motto;
     }
-    public String getPicture()
+    public static String getPicture()
     {
         return picture;
     }
-    public String getBackground()
+    public static String getBackground()
     {
         return background;
     }
-    public String getFriend()
+    public static String getFriend()
     {
         return friend;
     }
+    public static String getUiconPath() { return uiconPath; }
+
     public static void setId(int id)
     {
         User.id=id;
@@ -94,4 +98,5 @@ public class User {
     {
         User.friend=friend;
     }
+    public static void setUiconPath(String uiconPath) { User.uiconPath = uiconPath; }
 }
